@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Stock Market News</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Carlos Ureña Fandos">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/news.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+
+    		</div>
+	    	<div class="collapse navbar-collapse" id="myNavbar">
+	      		<ul class="nav navbar-nav navbar-right">
+	      			<li><a href="#inicio">Inicio</a></li>
+	        		<li><a href="#new">Noticia</a></li>
+	      		</ul>
+	    	</div>
+  		</div>
+	</nav>
+
+	<header id="inicio" class="jumbotron text-center">
+	   	<h1>Stock Market News</h1>
+			<p>Índices de mercado actualizados, datos de mercado, apasionantes análisis financieros,</p>
+ 		<p>Todo ello en un único punto online donde obtener las más recientes noticias del entorno. </p>
+	</header>
+
+	<div id="publicaciones" class="container">
+		<div class="advert-container">
+			<div class="container-fluid text-center">
+				<div class="imagen">
+						<img class="img-responsive center-block" src="img/publi.png" alt="X">
+				</div>
+			</div>
+		</div>
+
+		<div class="main-container">
+			<div id="new" class="container-fluid">
+				<section class="noticias">
+					<h2><a href="news1.html">Abengoa logra un contrato en Chile</a></h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"></span><span>23/04/2018 12:00</span>
+					</div>
+					<div class="informacion">
+						<p>Abengoa logra un contrato en Chile para el mayor proveedor de cobre del mundo.</p>
+						<p>Abengoa se ha adjudicado un proyecto electromecánico para reducir las emisiones de humos en la fundición que la Corporación Nacional del Cobre de Chile (Codelco), el mayor proveedor de este metal del mundo, tiene en Chuquicamata (Chile).</p>
+
+						<div class="media embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8GBLVVS8AO0"></iframe>
+						</div>
+
+						<p>El proyecto, cuyo importe no se ha facilitado, engloba las instalaciones de tratamiento de gases de los hornos de refino y la sustitución de uno de los secadores por otro de nueva tecnología, ha informado hoy la empresa española.</p>
+						<p>El objetivo de los trabajos es reducir las emisiones de partículas, dióxido de azufre (SO2) y arsénico derivadas de los procesos de fundición para cumplir las exigencias del Ministerio de Medio Ambiente de Chile.</p>
+
+						<div class="imagen">
+							<img class="img-responsive center-block" src="img/abengoa.jpg" alt="X">
+						</div>
+
+						<p>Con este contrato, Abengoa consolida su posición en el sector de la minería en ese país.</p>
+
+						<div class="imagen">
+							<img class="img-responsive center-block" src="img/abengoa2.jpg" alt="X">
+						</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid text-center">
+  		<a href="#myPage" title="To Top">
+    		<span class="glyphicon glyphicon-chevron-up"></span>
+  		</a>
+  		<p>Developed By Juan Carlos Ureña Fandos</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Stock Market News</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Carlos Ureña Fandos">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/news.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+
+    		</div>
+	    	<div class="collapse navbar-collapse" id="myNavbar">
+	      		<ul class="nav navbar-nav navbar-right">
+	      			<li><a href="#inicio">Inicio</a></li>
+	        		<li><a href="#new_1">Noticia 1</a></li>
+	        		<li><a href="#new_2">Noticia 2</a></li>
+	        		<li><a href="#new_3">Noticia 3</a></li>
+	      		</ul>
+	    	</div>
+  		</div>
+	</nav>
+
+	<header id="inicio" class="jumbotron text-center">
+	   	<h1>Stock Market News</h1>
+			<p>Índices de mercado actualizados, datos de mercado, apasionantes análisis financieros,</p>
+			<p>Todo ello en un único punto online donde obtener las más recientes noticias del entorno. </p>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4"><br>
+					<p class="g"><span class="glyphicon glyphicon-stats"></span></p>
+					<p id="nsocios">Más de 20 Índices</p>
+					<p id="nclubes">Más de 650 componentes</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="publicaciones" class="container">
+		<div class="advert-container">
+			<div class="container-fluid text-center">
+				<div class="imagen">
+						<img class="img-responsive center-block" src="img/publi.png" alt="X">
+				</div>
+			</div>
+		</div>
+
+		<div class="main-container">
+			<div id="new_1" class="container-fluid">
+				<section class="noticias">
+					<h2><a href="news1.html">Entrevista a García Paramés en ValueBilbao</a></h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"> </span><span>26/04/2018 12:00</span>
+					</div>
+					<div class="informacion">
+						<p>Compartimos el vídeo completo del evento ValueBilbao que el jueves 26 de octubre de 2017 se celebró en Bilbao, con la Sociedad Bilbaina y con la colaboración de Finect</p>
+					</div>
+					<div class="imagen">
+						<img class="img-responsive center-block" src="img/geo.png" alt="X">
+					</div>
+					<div class="read">
+						<a href="news1.html">Seguir leyendo >></a>
+					</div>
+				</section>
+			</div>
+
+			<div id="new_2" class="container-fluid">
+				<section class="noticias">
+					<h2><a href="news2.html">Abengoa logra un contrato en Chile</a></h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"> </span><span>23/04/2018 12:00</span>
+					</div>
+					<div class="informacion">
+						<p>Abengoa logra un contrato en Chile para el mayor proveedor de cobre del mundo.</p>
+					</div>
+					<div class="imagen">
+						<img class="img-responsive center-block" src="img/abengoa1.png" alt="X">
+					</div>
+					<div class="read">
+						<a href="news2.html">Seguir leyendo >></a>
+					</div>
+				</section>
+			</div>
+
+			<div id="new_3" class="container-fluid">
+				<section class="noticias">
+					<h2>Siemens Gamesa se adjudica su mayor contrato en India por un parque de 300 MW</h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"> </span><span>27/04/2018 12:00</span>
+					</div>
+					<div class="informacion">
+						<p>El grupo se encargará de toda la infraestructura, además del mantenimiento del parque durante los próximos 10 años</p>
+						<p>Sube cerca del 1% en el Mercado Continuo este jueves tras adjudicarse a través de su filial india el mayor pedido de su historia en el emergente gigante asiático: un parque de 300 MW. El grupo instalará de esta manera 143 aerogeneradores, según un comunicado remitido por la propia compañía.</p>
+					</div>
+					<div class="imagen">
+						<img class="img-responsive center-block" src="img/gamesa.jpg" alt="X">
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<div class="container text-center">
+		<hr>
+		<button id="more-news" type="button" class="btn"><span class="glyphicon glyphicon-plus"></span> Más noticias</button>
+	</div>
+
+	<footer class="container-fluid text-center">
+  		<a href="#myPage" title="To Top">
+    		<span class="glyphicon glyphicon-chevron-up"></span>
+  		</a>
+  		<p>Developed By Juan Carlos Ureña Fandos</p>
+	</footer>
+
+</body>
+
+</html>

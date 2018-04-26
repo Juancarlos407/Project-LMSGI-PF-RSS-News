@@ -1,0 +1,29 @@
+[
+	{
+		"id":"new_4",
+		"nav_element":"Noticia 4",
+		"titulo":"El Ibex 35 recupera los 9.900 puntos de la mano de Draghi",
+		"desc":"Las bolsas occidentales han gozado de una jornada alcista marcada por la avalancha de resultados corporativos y por la reunión del BCE. En el Viejo Continente las ganancias han rondado el 0,70%, y Wall Street va camino de cerrar en positivo.",
+		"datetime":"26/04/2018 12:00",
+		"imgmid":"img/ibex.jpg",
+		"imgbig":"a"
+	},
+	{
+		"id":"new_5",
+		"nav_element":"Noticia 5",
+		"titulo":"Teekay: analizamos las compañías internacionales que más gustan entre los gestores 'value'",
+		"desc":"Es un proveedor de servicios de transporte marítimo de crudo y gas. La compañía ofrece también servicios de producción, almacenamiento y descarga de petróleo en alta mar, principalmente bajo contratos a largo plazo y de tasa fija.",
+		"datetime":"14/04/2018 12:00",
+		"imgmid":"img/teekay.jpg",
+		"imgbig":"b"
+	},
+	{
+		"id":"new_6",
+		"nav_element":"Noticia 6",
+		"titulo":"Wall Street cierra mixto: el Dow Jones sube un 0,25%",
+		"desc":"Wall Street pasó la jornada a medio camino entre las cifras verdes y las rojas, y concluyó sin grandes cambios. Al cierre de las operaciones, el Dow Jones de Industriales ganó un 0,25% hasta los 24.083,83 enteros, el S&P 500 mejoró un 0,18% hasta los 2.639,40 puntos, aunque el Nasdaq perdió un 0,05% hasta las 7.003,74 unidades.",
+		"datetime":"24/04/2018 12:00",
+		"imgmid":"img/dow.png",
+		"imgbig":"c"
+	}
+]

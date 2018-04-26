@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Cabin|Catamaran|Open+Sans|Roboto');
+
+body {font-family: arial;}
+
+nav {background-color: #111111;}
+
+.jumbotron {
+    background:url('../img/wallpaper.jpg') 50% 50% no-repeat;background-size:cover;color:#ffffff;
+    color: #ffffff;
+    padding: 100px 25px;
+    font-family: arial;
+}
+
+.g {
+	font-size:50px;padding-top:15px
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #111111;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+}
+
+.navbar li {
+    height: 100%;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #1bc1bc !important;
+}
+
+.navbar-nav li.active {
+    color: #1bc1bc !important;
+    background-color: #111111 !important;
+}
+
+.navbar-nav li a:hover{
+    color: #1bc1bc !important;
+    background-color: #111111 !important;
+}
+
+.navbar-nav li a:focus {
+    color: #1bc1bc;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #111111 !important;
+}
+
+.stats .glyphicon, footer .glyphicon {
+    font-size: 250%;
+    margin-bottom: 20px;
+    color: #111111;
+    vertical-align: middle;
+}
+
+.main-container{
+	font-size: 15px;
+}
+
+.noticias {
+	margin-bottom: 30px;
+}
+
+.noticias h1, .noticias h2, .noticias h3, .noticias h4{
+	font-weight: bold;
+}
+
+.noticias h1, .noticias h2 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #111111;
+	color: #ffffff;
+}
+
+.noticias h2 a {
+	color: #ffffff;
+}
+
+.noticias h2 a:hover {
+	color: #ffffff;
+}
+
+.noticias .datetime{
+	color: #1bc1bc;
+	text-align: right;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.datetime .glyphicon{
+	color: #1bc1bc;
+}
+
+.noticias .read{
+	text-align: right;
+	margin-top: 10px;
+	padding-right: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.noticias .read a{
+	color: #111111;
+}
+
+.informacion {
+	margin-bottom: 20px;
+}
+
+.informacion ul li {
+	margin-bottom: 5px;
+}
+
+.declaraciones {
+	font-style: italic;
+	color: #1bc1bc;
+	font-size: 14px;
+}
+
+.imagen, .media {
+	margin-bottom: 10px;
+}
+
+.btn{
+	background-color: #111111;
+	color: #ffffff;
+}
+
+.btn:hover {
+	background-color: #111111;
+	color: #1bc1bc;
+}
+
+.btn:focus {
+	background-color: #111111;
+	color: #ffffff;
+}
+
+footer {
+	margin-top: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #111111;
+    color: #ffffff;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1bc1bc;
+}
+
+/* ============ Media Query ============ */
+
+/* Extra Small Devices */
+@media (max-width: 767px) {
+    .advert-container{
+        width: 100%;
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        height: 90px;
+        background-color: #0075BF;
+    }
+
+    .advert-container p{
+        padding-top: 40px;
+        color: #000000;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .advert-container .imagen p{
+        display: none;
+    }
+
+}
+
+/* Small Devices Tablets*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-container{
+        width: calc(100% - 200px);;
+    }
+
+    .advert-container{
+        width: 200px;
+        margin-top: 20px;
+        background-color: #0075BF;
+        float:right;
+    }
+
+    .advert-container p{
+        padding-top: 10px;
+        color: #000000;
+        font-family: Arial;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 20px;
+    }
+
+    .advert-container .imagen p{
+        padding-top: 5px;
+    }
+}
+
+/* Medium and Large Devices Desktops */
+@media (min-width: 992px) {
+    .main-container{
+        width: calc(100% - 300px);;
+    }
+
+    .advert-container{
+        width: 300px;
+        margin-top: 20px;
+        background-color: #0075BF;
+        float:right;
+    }
+
+    .advert-container p{
+        padding-top: 10px;
+        color: #000000;
+        font-family: Arial;
+    }
+
+    .advert-container .imagen img{
+        padding-top: 20px;
+    }
+
+    .advert-container .imagen p{
+        padding-top: 5px;
+    }
+}

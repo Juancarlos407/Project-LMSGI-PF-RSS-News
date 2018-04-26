@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Stock Market News</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Carlos Ureña Fandos">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/news.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+    		</div>
+	    	<div class="collapse navbar-collapse" id="myNavbar">
+	      		<ul class="nav navbar-nav navbar-right">
+	      			<li><a href="#inicio">Inicio</a></li>
+	        		<li><a href="#new">Noticia</a></li>
+	      		</ul>
+	    	</div>
+  		</div>
+	</nav>
+
+	<header id="inicio" class="jumbotron text-center">
+	   	<h1>Stock Market News</h1>
+			<p>Índices de mercado actualizados, datos de mercado, apasionantes análisis financieros,</p>
+ 		 <p>Todo ello en un único punto online donde obtener las más recientes noticias del entorno. </p>
+	</header>
+
+	<div id="publicaciones" class="container">
+		<div class="advert-container">
+			<div class="container-fluid text-center">
+				<div class="imagen">
+						<img class="img-responsive center-block" src="img/publi.png" alt="X">
+				</div>
+			</div>
+		</div>
+
+		<div class="main-container">
+			<div id="new" class="container-fluid">
+				<section class="noticias">
+					<h2><a href="news1.html">Entrevista a García Paramés en ValueBilbao</a></h2>
+					<div class="datetime">
+						<span class="glyphicon glyphicon-calendar"></span><span>26/04/2018 12:00</span>
+					</div>
+					<div class="informacion">
+						<p>Compartimos el vídeo completo del evento ValueBilbao que el jueves 26 de octubre de 2017 se celebró en Bilbao, con la Sociedad Bilbaina y con la colaboración de Finect</p>
+
+						<div class="imagen">
+							<img class="img-responsive center-block" src="img/parames.jpg" alt="X">
+						</div>
+
+						<p>En dicha conferencia se exponen temas como la diversificación del fondo propio Cobas Selección y se habla de la estratégia value a seguir, las vistas a futuro y lo que esperamos del mercado español, a posteriori veremos una ronda de preguntas.</p>
+
+						<div class="media embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l4Zq_Cj6Ijc"></iframe>
+						</div>
+
+						<p>Tendremos también, como a todos nos gusta, graficos de exposición tanto sectorial como geográficos.</p>
+
+						<p>Como podemos observar no es un fondo interesante si lo que buscamos es una exposición a América latina pero no podremos resistirnos al interesante compendio de empresas europeas que nos propone Paramés.</p>
+
+						<div class="imagen">
+							<img class="img-responsive center-block" src="img/geo.png" alt="X">
+						</div>
+
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid text-center">
+  		<a href="#myPage" title="To Top">
+    		<span class="glyphicon glyphicon-chevron-up"></span>
+  		</a>
+  		<p>Developed By Juan Carlos Ureña Fandos</p>
+	</footer>
+</body>
+</html>
