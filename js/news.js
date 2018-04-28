@@ -3,11 +3,7 @@ $(document).ready(function(){
 	var scroll_bool = false;
 	var i = 0;
 	var stats = 3;
-	/*
-	 * Comprueba si la ventana modifica su tamaño.
-	 * En el caso correcto si el tamñano es menor a 768 píxels se comprueba si esta en el top 
-	 * para activar el banner en dispositivos móviles. En caso contrario se deja el banner activo.
-	*/
+
 	window.onresize = function() {
     	$(window).scroll(function(){
     		if ($(window).width() < 768) {
@@ -18,9 +14,9 @@ $(document).ready(function(){
 				}
     		} else {
     			$(".advert-container").show();
-    		}			
-		});	
-	}
+    		}
+		   });
+    	}
 
 	$("#scrolling").click(function(){
 		if (scroll_bool == false) {
@@ -32,8 +28,7 @@ $(document).ready(function(){
 			$(this).html("<span class=\"glyphicon glyphicon-play\"></span> Activar Scrolling");
 			alert("Ha desactivado el scrolling");
 		}
-	    
-	});
+	 });
 
 	$("#more-news").click(function(){
 		if (i == 0){
@@ -43,8 +38,8 @@ $(document).ready(function(){
 			cargarJSON(i+1);
 			i++;
 			$("#more-news").hide();
-		} 
-	});
+		}
+	 });
 
 	$(window).scroll(function(){
 		if (($(window).scrollBottom()==0) && (scroll_bool)){
@@ -56,11 +51,11 @@ $(document).ready(function(){
 				i++;
 				$("#more-news").hide();
 			}
-		};		
-	});
+		 };
+	  });
 
-	$.fn.scrollBottom = function() { 
-		return $(document).height() - this.scrollTop() - this.height(); 
+	$.fn.scrollBottom = function() {
+		return $(document).height() - this.scrollTop() - this.height();
 	};
 
 	function cargarJSON(i){
@@ -68,7 +63,7 @@ $(document).ready(function(){
 		$.getJSON(fichero, function(jsonObject) {
 	        ponerNoticias(jsonObject);
 	    });
-	}
+	   }
 
 	function ponerNoticias(json){
      $.each( json, function(j, item) {
@@ -112,11 +107,8 @@ $(document).ready(function(){
      	a.appendTo(li);
      	li.appendTo(".nav");
 
-     	//Modifica el número de noticias visualizadas en el sitio.
      	stats = stats + 1;
      	$('.stats').html('<span class=\"glyphicon glyphicon-eye-open\"></span><p>' + stats + ' noticias visualizadas en el sitio.</p>');
-
-     }); 
-}
-
-});
+     });
+    }
+   });

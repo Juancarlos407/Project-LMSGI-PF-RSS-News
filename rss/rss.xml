@@ -3,22 +3,17 @@
 
 	<channel>
 		<title>Stock Market News</title>
-		<atom:link href="https://rawgit.com/am4rtinez/news-lmsgi07/master/rss/rss.xml" rel="self" type="application/rss+xml"/>
-		<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html</link>
+		<atom:link href="https://rawgit.com/Juancarlos407/Projecte-LMSGI-PF-Pagina-web-de-noticies-auto-emplenable-amb-scroll/master/rss/rss.xml" rel="self" type="application/rss+xml"/>
+		<link>https://rawgit.com/Juancarlos407/Projecte-LMSGI-PF-Pagina-web-de-noticies-auto-emplenable-amb-scroll/master/news.html</link>
 		<description>Noticias de bolsa</description>
 		<language>es-es</language>
 		<category>News</category>
 		<copyright>2018 Juan Carlos Ureña Fandos. All rights reserved.</copyright>
-		<image>
-			<url>https://rawgit.com/am4rtinez/news-lmsgi07/master/img/logo.png</url>
-			<title>Stock Market News</title>
-			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html</link>
-		</image>
 
 		<item>
 			<guid isPermaLink="false">New_1</guid>
 			<title>Entrevista a García Paramés en ValueBilbao</title>
-			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news1.html</link>
+			<link>https://rawgit.com/Juancarlos407/Projecte-LMSGI-PF-Pagina-web-de-noticies-auto-emplenable-amb-scroll/master/news1.html</link>
 			<description><![CDATA[ <p>Compartimos el vídeo completo del evento ValueBilbao que el jueves 26 de octubre de 2017 se celebró en Bilbao, con la Sociedad Bilbaina y con la colaboración de Finect.</p> ]]></description>
 			<category>Value Invest</category>
 			<category>Cobas Selección</category>
@@ -26,8 +21,8 @@
 
 		<item>
 			<guid isPermaLink="false">New_2</guid>
-			<title>Abengoa hoy.</title>
-			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news2.html</link>
+			<title>Abengoa logra un contrato en Chile</title>
+			<link>https://rawgit.com/Juancarlos407/Projecte-LMSGI-PF-Pagina-web-de-noticies-auto-emplenable-amb-scroll/master/news2.html</link>
 			<description><![CDATA[ <p>Abengoa logra un contrato en Chile para el mayor proveedor de cobre del mundo.</p> ]]></description>
 			<category>Abengoa</category>
 			<category>Chile</category>
@@ -35,12 +30,11 @@
 
 		<item>
 			<guid isPermaLink="false">New_3</guid>
-			<title>Star Wars VIII: Los últimos Jedi - El collar de Luke esconde un secreto (RUMOR)</title>
-			<link>https://rawgit.com/am4rtinez/news-lmsgi07/master/news.html</link>
-			<description><![CDATA[ <p>Un nuevo rumor de Star Wars VIII - Los últimos Jedi apunta a un secreto escondido en el collar que lleva Luke Skywalker y que tendría que ver con Darth Vader.</p><p>El teaser tráiler de Star Wars: Episodio VIII - Los últimos Jedi ha reavivado la imaginación de los millones de fans de la saga y también muchos, que digo, muchísimos rumores, por supuesto sin confirmación ninguna.</p> ]]></description>
-			<category>Star Wars</category>
-			<category>Star Wars VIII</category>
-			<category>Los últimos Jedi</category>
+			<title>Siemens Gamesa se adjudica su mayor contrato en India por un parque de 300 MW</title>
+			<link>https://rawgit.com/Juancarlos407/Projecte-LMSGI-PF-Pagina-web-de-noticies-auto-emplenable-amb-scroll/master/news.html</link>
+			<description><![CDATA[ <p>El grupo se encargará de toda la infraestructura, además del mantenimiento del parque durante los próximos 10 años</p> ]]></description>
+			<category>Gamesa</category>
+			<category>Siemens</category>
 		</item>
 	</channel>
 

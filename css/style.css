@@ -1,8 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo|Cabin|Catamaran|Open+Sans|Roboto');
-
 body {font-family: arial;}
 
 nav {background-color: #111111;}
+
+footer {
+	margin-top: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #111111;
+    color: #ffffff;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #1bc1bc;
+}
 
 .jumbotron {
     background:url('../img/wallpaper.jpg') 50% 50% no-repeat;background-size:cover;color:#ffffff;
@@ -67,7 +79,7 @@ nav {background-color: #111111;}
 	margin-bottom: 30px;
 }
 
-.noticias h1, .noticias h2, .noticias h3, .noticias h4{
+.noticias h1, .noticias h2, .noticias h3, .noticias h4 {
 	font-weight: bold;
 }
 
@@ -87,7 +99,7 @@ nav {background-color: #111111;}
 	color: #ffffff;
 }
 
-.noticias .datetime{
+.noticias .datetime {
 	color: #1bc1bc;
 	text-align: right;
 	margin-bottom: 10px;
@@ -96,11 +108,11 @@ nav {background-color: #111111;}
 	font-style: italic;
 }
 
-.datetime .glyphicon{
+.datetime .glyphicon {
 	color: #1bc1bc;
 }
 
-.noticias .read{
+.noticias .read {
 	text-align: right;
 	margin-top: 10px;
 	padding-right: 10px;
@@ -108,7 +120,7 @@ nav {background-color: #111111;}
 	font-weight: bold;
 }
 
-.noticias .read a{
+.noticias .read a {
 	color: #111111;
 }
 
@@ -130,7 +142,7 @@ nav {background-color: #111111;}
 	margin-bottom: 10px;
 }
 
-.btn{
+.btn {
 	background-color: #111111;
 	color: #ffffff;
 }
@@ -145,25 +157,11 @@ nav {background-color: #111111;}
 	color: #ffffff;
 }
 
-footer {
-	margin-top: 35px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #111111;
-    color: #ffffff;
-}
-
-footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #1bc1bc;
-}
-
 /* ============ Media Query ============ */
 
 /* Extra Small Devices */
 @media (max-width: 767px) {
-    .advert-container{
+    .advert-container {
         width: 100%;
         position: fixed;
         z-index: 99999;
@@ -173,22 +171,21 @@ footer .glyphicon {
         background-color: #0075BF;
     }
 
-    .advert-container p{
+    .advert-container p {
         padding-top: 40px;
         color: #000000;
         font-family: Arial;
         font-weight: bold;
     }
 
-    .advert-container .imagen img{
+    .advert-container .imagen img {
         padding-top: 10px;
         height: 80px;
     }
 
-    .advert-container .imagen p{
+    .advert-container .imagen p {
         display: none;
     }
-
 }
 
 /* Small Devices Tablets*/
